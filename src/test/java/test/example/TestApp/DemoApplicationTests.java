@@ -2,7 +2,7 @@ package test.example.TestApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
+/*
 @SpringBootTest
 class DemoApplicationTests {
 
@@ -10,4 +10,4 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 
-}
+}*/
