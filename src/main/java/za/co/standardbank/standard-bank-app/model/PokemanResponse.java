@@ -17,6 +17,6 @@ public class PokemanResponse implements Serializable {
         private Integer count;
         private String next;
         private Object previous;
-        private List<Result> results = null;
+        private List<test.example.TestApp.model.Result> results = null;
 
 }

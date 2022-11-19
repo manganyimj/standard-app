@@ -8,11 +8,11 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>test.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>za.co.standardbank</groupId>
+	<artifactId>standard-bank-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Test App</description>
+	<name>standard-bank-app</name>
+	<description>Assesment for Java Developer</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

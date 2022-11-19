@@ -11,7 +11,7 @@ import test.example.TestApp.model.Result;
 import java.util.List;
 
 @Service
-public class PokemanServiceImp implements PokemonService {
+public class PokemanServiceImp implements test.example.TestApp.service.PokemonService {
 
     @Autowired
     private RestTemplate restTemplate;
