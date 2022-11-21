@@ -1,17 +1,17 @@
-package test.example.TestApp.service;
+package za.co.standardbankapp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import test.example.TestApp.exception.PokemonException;
-import test.example.TestApp.model.PokemanResponse;
-import test.example.TestApp.model.Result;
+import za.co.standardbankapp.exception.PokemonException;
+import za.co.standardbankapp.model.PokemanResponse;
+import za.co.standardbankapp.model.Result;
 
 import java.util.List;
 
 @Service
-public class PokemanServiceImp implements test.example.TestApp.service.PokemonService {
+public class PokemanServiceImp implements PokemonService {
 
     @Autowired
     private RestTemplate restTemplate;

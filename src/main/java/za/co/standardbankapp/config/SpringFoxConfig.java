@@ -1,4 +1,4 @@
-package test.example.TestApp.config;
+package za.co.standardbankapp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

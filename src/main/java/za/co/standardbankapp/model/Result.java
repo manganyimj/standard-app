@@ -1,4 +1,4 @@
-package test.example.TestApp.model;
+package za.co.standardbankapp.model;
 
 import com.fasterxml.jackson.annotation.*;
 import lombok.AllArgsConstructor;

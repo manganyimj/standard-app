@@ -1,4 +1,4 @@
-package test.example.TestApp.exception;
+package za.co.standardbankapp.exception;
 
 public class PokemonException extends Exception{
 

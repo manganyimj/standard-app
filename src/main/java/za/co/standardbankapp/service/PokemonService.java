@@ -1,7 +1,7 @@
-package test.example.TestApp.service;
+package za.co.standardbankapp.service;
 
-import test.example.TestApp.exception.PokemonException;
-import test.example.TestApp.model.Result;
+import za.co.standardbankapp.exception.PokemonException;
+import za.co.standardbankapp.model.Result;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package test.example.TestApp.controller;
+package za.co.standardbankapp.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import test.example.TestApp.exception.PokemonException;
-import test.example.TestApp.service.PokemonService;
+import za.co.standardbankapp.exception.PokemonException;
+import za.co.standardbankapp.service.PokemonService;
 
 @RestController
 @RequestMapping("/api/pokemon/v1")
